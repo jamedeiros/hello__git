@@ -9,4 +9,4 @@ Comandos:
 # Como clonar um repositório: git clone https://github.com/jamedeiros/hello__git.git
 # Adicionando novos arquivos: git add <arquivo>
 # Para verificar o status: git status
-
+# Para comitar as mudanças: git commit -m "MENSAGEM"
