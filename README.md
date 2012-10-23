@@ -24,7 +24,8 @@ Comandos:
 # Removendo arquivos: git rm <arquivo>
 
 # Para listar as diferenças entre arquivos versionados: git diff
-# Para listar o histório do repositório: git log
+# Para listar as diferenças também pode ser utilizado: diff show
+# Para listar o histórico do repositório: git log
 
 Obs.:
    # Para realizar commits sem precisar adicionar pode-se utilizar: git commit -am
