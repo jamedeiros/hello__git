@@ -17,23 +17,35 @@ Configurando extenções que devem ser ignoradas durante o commit
 Comandos:
 ---------
 # Como clonar um repositório: git clone https://github.com/jamedeiros/hello__git.git
-# Adicionando novos arquivos ou modificados: git add <arquivo>
-# Para verificar o status: git status
-# Para comitar as mudanças: git commit -m "MENSAGEM"
+# Adicionando novos arquivos ou modificados: *git add <arquivo>*
+# Para verificar o status: *git status*
+# Para comitar as mudanças: *git commit -m "MENSAGEM"*
 
-# Removendo arquivos: git rm <arquivo>
+# Removendo arquivos: *git rm <arquivo>*
 
-# Para listar as diferenças entre arquivos versionados: git diff
-# Para listar as diferenças também pode ser utilizado: diff show
-# Para listar o histórico do repositório: git log
+# Para listar as diferenças entre arquivos versionados: *git diff*
+# Para listar as diferenças também pode ser utilizado: *git show*
+# Para listar o histórico do repositório: *git log*
+# Para realizar diff entre branchs: *git diff <BRANCH> <BRANCH>*
 
-# Para reverter um arquivo: git checkout <arquivo>
+# Para mostrar modificações em um arquivo - com a pessoa que modificou: *git blame <arquivo>*
+
+# Para reverter um arquivo: *git checkout <arquivo>*
 
 * Trabalhando com branch
-# Para listar os branchs: git branch
-# Para criar um novo branch: git branch <nome>
+# Para listar os branchs: *git branch*
+# Para criar um novo branch: *git branch <nome>*
+
+* Para realizar o merge: *git merge <branch> <branch>*
+
+* Trabalhando com TAG
+# Listar as tags: *git tag*
+# Criar uma nova tag: *git tag -af <nome|versão>*
+# Acessando uma tag: *git checkout <tag>
 
 
 Obs.:
-   # Para realizar commits sem precisar adicionar pode-se utilizar: git commit -am
+   1. Para realizar commits sem precisar adicionar pode-se utilizar: *git commit -am*
+   2. Quando acessamos uma TAG, os arquivos não podem ser modificados, ou seja, a TAG é uma fotografia do repositório.
+
 
