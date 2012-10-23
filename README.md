@@ -27,6 +27,13 @@ Comandos:
 # Para listar as diferenças também pode ser utilizado: diff show
 # Para listar o histórico do repositório: git log
 
+# Para reverter um arquivo: git checkout <arquivo>
+
+* Trabalhando com branch
+# Para listar os branchs: git branch
+# Para criar um novo branch: git branch <nome>
+
+
 Obs.:
    # Para realizar commits sem precisar adicionar pode-se utilizar: git commit -am
 
