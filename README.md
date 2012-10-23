@@ -1,5 +1,5 @@
-Treinamento Git
-===============
+Treinamento Git - 0.1
+=====================
 José Augusto de Medeiros <jamedeiros@gmail.com>
 
 Tutorial desenvolvido durante o treinamento e pode ser seguido por novos seguidores.
